@@ -1,0 +1,15 @@
+<?php
+$strangerId=$_REQUEST["strangerId"];
+
+include ('config.inc.php');
+include ('database.inc.php');
+
+$result    =mysql_query("SELECT * FROM typing WHERE id=$strangerId ;");
+
+while ($row=mysql_fetch_array($result))
+    {
+    echo "typing";
+    }
+
+mysql_close ($con);
+?>
