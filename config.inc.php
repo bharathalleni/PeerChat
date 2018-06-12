@@ -1,8 +1,8 @@
 <?php
-$host ='mysql.hostinger.in';
+$host ='';
 
-$user ='u995433666_vibe';
-$pass ='bharath.1997';
-$db   ='u995433666_vibe';
+$user ='';
+$pass ='';
+$db   ='';
 $title='Times of CU';
 ?>
